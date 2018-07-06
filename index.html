@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.container-fluid{
+	/*background-color: #000;*/
+	width: 100%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img/3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  /*color: #000;*/
+  margin: 0px;
+  opacity: 0.75;
+
+}
+
+.caption span.block {
+  background-color: #111;
+  color: #fff;
+  padding: 12px;
+  padding-bottom: 40px;
+  font-size: 25px;
+  letter-spacing: 6px;
+}
+/*
+#name2 {
+  padding: 12px;
+  padding-top: 40px;
+}
+*/
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.word_container {
+	margin: auto;
+	max-width: 900px;
+}
+
+/* blink */
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+.blink_s {
+  animation: blinker_s 2s linear infinite;
+}
+
+.col-sm {
+  text-align: center;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+
+@keyframes blinker_s {  
+  50% { opacity: 0.3; }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="block" id="name">Hyades Lai</span>
+    <div>      
+    	<span style="font-size: 28px; color:#ffffff;opacity: 0.8;" class="glyphicon glyphicon-menu-down blink"></span>
+	</div>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">A Data Scientist Beginner</h3>
+
+  <div class ="word_container">
+  	<p style="padding-top: 20px;">你好！我是賴東昇，出身於台中市，目前就讀於多雨的政大統研所。我熱愛音樂，喜歡在下雨的午後，躺在沙發上看漫畫。音樂偏好橫跨鞭金、後搖、日搖、到最近的City Pop，漫畫則喜歡道滿晴明、三浦健太郎、安達充等，認為烙印勇士就是愛配overkill，期末考就是要配惘聞。</p>
+
+  	<p style="padding-top: 0px;">出於對音樂的熱愛，能彈得一手吉他，但音感卻奇差無比，庸庸碌碌地表演了幾次，好生幸運。為了未來能進入影音相關的產業，目前正在研究Music Information Retreval 相關議題，包括：歌詞分析、歌曲情緒、曲風辨識等，目前還沒做出個鳥，做出來再告訴大家。曾花時間鑽研過PS與AI等繪圖軟體，但不想被當工具人，所以基本上是個秘密。</p>
+  </div>
+</div>
+
+
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="block blink_s" style="background-color:transparent;font-weight: bold;font-size:40px;color: #f7f7f7;">SKILLS</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ffffff;margin: auto;background-color:#282E34;text-align:center;padding:40px 40px 60px 40px;text-align: justify;">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <div class="icon">
+              <img src="img/R.png" style="max-height:60px; padding-bottom: 10px">
+            </div>
+              <h4 style="padding-top: 10px">非常精熟</h4>
+              <p style="color:#d9d9d9;">上課都用這個。打扣速度最快，能建模、資料處理、爬蟲，熟悉ggplot2、Rmd、shiny等套件。</p>
+          </div>
+          <div class="col-sm">
+            <div class="icon">
+              <img src="img/python.png" style="max-height:60px; padding-bottom: 10px">
+            </div>
+              <h4 style="padding-top: 10px">精熟</h4>
+              <p style="color:#d9d9d9;">逐漸把學習重心往py移動，目前使用python進行ML建模、文字採礦等工作。</p>
+          </div>
+          <div class="col-sm">
+            <div class="icon">
+              <img src="img/html5.png" style="max-height:60px; padding-bottom: 10px">
+            </div>
+              <h4 style="padding-top: 10px">姑且看得懂</h4>
+              <p style="color:#d9d9d9;">曾學習過網頁程式設計，包括css，bootstrap與Jquery，寫Rmarkdown時會用來添油加醋。</p>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="block blink_s" style="background-color:transparent;font-weight: bold;font-size:40px;color: #fff;">MY WORK&CONTACT</span>  
+  </div>
+</div>
+
+
+
+<div style="position:relative;">
+  <div style="color:#ffffff;margin: auto;background-color:#282E34;text-align:center;padding:40px 40px 60px 40px;text-align: justify;">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <div class="icon">
+            </div>
+            <a href="https://github.com/hyades910739/">
+              <img src="img/github.png" style="max-height:60px; padding-bottom: 10px">            
+              <h4 style="padding-top: 10px">Github Pages</h4>
+            </a>  
+          </div>
+          <div class="col-sm">
+            <div class="icon">
+            </div>
+            <a href="https://drive.google.com/drive/folders/0B1xkQoDOs16aaXNtTHRSd3R6bkk?usp=sharing">
+              <img src="img/poster.png" style="max-height:60px; padding-bottom: 10px">            
+              <h4 style="padding-top: 10px">Poster Design</h4>
+              <p style="color:#d9d9d9;">(google drive)</p>
+            </a>  
+          </div>
+          <div class="col-sm">
+            
+              <img src="img/gmail.png" style="max-height:60px; padding-bottom: 10px">
+              <h4 style="padding-top: 10px">G-mail</h4>
+              <p style="color:#d9d9d9;">hyades910739@gmail.com</p>
+          </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!--
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    
+  </div>
+</div>
+-->
+
+<div class="bgimg-1">
+  <div class="caption">
+    <!--
+    <div>      
+      
+      <span style="padding-bottom: 0px; font-size: 28px; color:#ffffff;opacity: 0.8; "  class="glyphicon glyphicon-menu-up blink"></span>
+    </div>
+    -->
+    <span class="block" id="name2">Hyades Lai</span>
+        <div>      
+      <span style="font-size: 28px; color:#ffffff;opacity: 0.8;" class="glyphicon glyphicon-menu-up blink"></span>
+    </div>
+  </div>
+</div>
+<!--
+<div class="bgimg-1">
+  <div class="caption">
+  	<div style="color: #777;background-color:;text-align:center;padding:50px 30px;text-align: justify;">
+ 		
+	  </div>
+    
+  </div>
+</div>
+-->
+
+</body>
+</html>
